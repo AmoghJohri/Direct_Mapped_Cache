@@ -1,15 +1,11 @@
 COMPUTER ARCHITECTURE PROJECT
-
 The team members for the following computer architecture course project constitutes of :
 •Amogh Johri (IMT2017003)
 •Arjun Verma (IMT2017008)
 •Gandharv Suri (IMT2017017)
-
 Topic:
 Implementing a direct mapped cache in verilog and demonstrating the different hit rates by varying
-the number of lines/blocks and also by varying the number of words per line/block.
-
-Implementation highlights:
+the number of lines/blocks and also by varying the number of words per line/block.Implementation highlights:
 • The cache is built using a multi-dimensional array to implement a matrix of 256 rows
 (number of blocks/lines) and 16 columns (number of words per block/line).
 • We’ve built a seperate register of size 256 (number of blocks/lines) to store the tags of the
